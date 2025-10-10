@@ -15,6 +15,7 @@ function myName(){
 }
 myName();
 console.log(a);
+
 let b=10;
 function returnb(){
     let b=20;
@@ -22,3 +23,5 @@ function returnb(){
 }
 returnb();
 console.log(b);
+//var will change the value inside fuction call
+//we will try to only use let and const from now onwards
